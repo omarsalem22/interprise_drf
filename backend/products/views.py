@@ -32,3 +32,6 @@ class ProductListCreateApiView(generics.ListCreateAPIView):
                 content=title
             serializer.save(content=content)
 
+
+
+
